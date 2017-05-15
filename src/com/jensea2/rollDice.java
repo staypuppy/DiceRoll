@@ -1,0 +1,24 @@
+package com.jensea2;
+
+import com.sun.org.apache.xpath.internal.SourceTree;
+
+import java.util.Random;
+
+
+
+public class rollDice {
+    //Roll the dice 10 times and produce random values between 1 - 6
+        public static int rollDice(int diceNumber) {
+            Random rand = new Random();
+            for (int rollNumber = 1; rollNumber < 11; rollNumber++) {
+                System.out.println("Roll Number: " + rollNumber);
+                System.out.print("Dice " + diceNumber + ": ") ;
+                System.out.println(rand.nextInt(6) + 1);
+                System.out.println();
+
+            }
+            return 0;
+
+
+        }
+}
