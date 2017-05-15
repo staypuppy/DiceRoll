@@ -8,27 +8,25 @@ public class Main {
 
 
         rollDice();
-        diceValue();
 
     }
 
-    public static void rollDice() {
-        for (int rollNumber = 1; rollNumber < 11; rollNumber++) {
-            System.out.println(rollNumber);
-            }
-
-
-    }
-
-    public static int diceValue() {
+    public static int rollDice() {
         Random rand = new Random();
-        for (int diceValue=0;diceValue < 10;diceValue++)
-        {
-            System.out.println((rand.nextInt(6-1+1)+1));
+        for (int rollNumber = 1; rollNumber < 11; rollNumber++) {
+            System.out.println("Roll number " + rollNumber);
+            System.out.println((rand.nextInt(6) + 1));
+
         }
         return 0;
 
 
-
     }
 }
+
+
+
+
+
+
+
