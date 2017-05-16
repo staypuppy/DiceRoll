@@ -2,6 +2,7 @@ package com.jensea2;
 
 import java.util.Random;
 
+
 public class rollDiceAgain {
 
     //roll 2 dice and display their random values
@@ -21,5 +22,5 @@ public class rollDiceAgain {
             System.out.println("Sum: " + sum);
             System.out.println();
         }
-          }
+    }
 }
