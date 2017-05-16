@@ -6,7 +6,7 @@ public class Main {
 
 
         rollDice.rollBoth();
-       // ScannerImport.rollTaking();
+
 
     }
 }
