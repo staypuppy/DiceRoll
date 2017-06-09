@@ -1,10 +1,11 @@
 package com.jensea2;
 
-class Main {
+public class Main {
 
     public static void main(String[] args) {
 
-        rollDice.rollBoth();
+        RollDiceAgain rollDiceAgain = new RollDiceAgain();
+        rollDiceAgain.rollBoth();
 
 
     }
